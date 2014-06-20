@@ -27,5 +27,9 @@
         <string>US</string>
         <string>CA</string>
     </array>
+    <key>PlexPluginTesterFlags</key>
+    <array>
+        <string>NoURLServices</string>
+    </array>
 </dict>
 </plist>
