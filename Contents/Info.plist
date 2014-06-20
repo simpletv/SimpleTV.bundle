@@ -9,7 +9,7 @@
         <string>AAC</string>
     </array>
     <key>PlexClientPlatformExclusions</key>
-    <string>Roku</string>
+    <string>Plex Home Theater</string>
     <key>PlexClientPlatforms</key>
     <string>*</string>
     <key>PlexFrameworkVersion</key>
