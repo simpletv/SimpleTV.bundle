@@ -1,0 +1,16 @@
+{
+    "MediaServerTitle": "Simple.TV",
+    "Error":            "Error",
+    "Success":          "Success",
+    "BadAuth":          "Incorrect username or password.",
+    "NetworkProblem":   "There was a network problem. Please try again.",
+    "EmptyCredentials": "You must provide a non-empty username and password.",
+    "PrefsSaved":       "Account configured",
+    "SetAuth":          "You must set account details in the channel preferences.",
+    "PrefsTitle":       "Simple.TV Settings",
+    "MoreGroups":       "More Shows ...",
+    "MoreItems":        "More Episodes ...",
+    "EmptyTitle":       "Empty",
+    "EmptyLibrary":     "You have no recordings in your library.",
+    "EmptyGroup":       "There are no recordings for this show."
+}

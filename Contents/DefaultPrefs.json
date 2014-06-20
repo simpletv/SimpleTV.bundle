@@ -1,0 +1,15 @@
+[
+  {
+    "id": "username",
+    "type": "text",
+    "label": "Simple.TV Login",
+    "default": ""
+  },
+  {
+    "id": "password",
+    "type": "text",
+    "label": "Simple.TV Password",
+    "default": "",
+    "option": "hidden"
+  }
+]
