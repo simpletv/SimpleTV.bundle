@@ -25,6 +25,7 @@
     <key>PlexPluginRegions</key>
     <array>
         <string>US</string>
+        <string>CA</string>
     </array>
 </dict>
 </plist>
