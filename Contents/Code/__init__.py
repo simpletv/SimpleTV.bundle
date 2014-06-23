@@ -86,7 +86,7 @@ def ValidatePrefs():
 @handler(PREFIX, NAME, art=ART, thumb=ICON)
 def MainMenu():
 
-    oc = ObjectContainer(title1=L("MediaServerTitle"))
+    oc = ObjectContainer(title1=L("MediaServerTitle"), no_cache=True)
 
     servers = {}
 
