@@ -62,7 +62,7 @@ def ValidatePrefs():
     password = Prefs['password']
 
     if (not user or not password):
-        return MessageContainer(L("Error"), L("EmptyCredentials"))
+        return ObjectContainer(header=L("Error"), message=L("EmptyCredentials"))
 
     # make an authentication check request
     url = "%s/auth/users/%s" % (BASE_URL, String.Quote(user))
@@ -75,11 +75,11 @@ def ValidatePrefs():
                            cacheTime=0)
     except Ex.HTTPError as e:
         Log("authentication failed")
-        return MessageContainer(L("Error"), L("BadAuth"))
+        return ObjectContainer(header=L("Error"), message=L("BadAuth"))
 
     Log("authentication passed")
     HTTP.Headers['Authorization'] = authstring
-    return MessageContainer(L("Success"), L("PrefsSaved"))
+    return ObjectContainer(header=L("Success"), message=L("PrefsSaved"))
 
 
 ################################################################################
