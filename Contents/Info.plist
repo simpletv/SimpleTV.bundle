@@ -4,24 +4,12 @@
 <dict>
     <key>CFBundleIdentifier</key>
     <string>com.plexapp.plugins.simpletv</string>
-    <key>PlexAudioCodec</key>
-    <array>
-        <string>AAC</string>
-    </array>
     <key>PlexClientPlatformExclusions</key>
     <string>Plex Home Theater</string>
     <key>PlexClientPlatforms</key>
     <string>*</string>
     <key>PlexFrameworkVersion</key>
     <string>2</string>
-    <key>PlexMediaContainer</key>
-    <array>
-        <string>TS</string>
-    </array>
-    <key>PlexVideoCodec</key>
-    <array>
-        <string>H.264</string>
-    </array>
     <key>PlexPluginRegions</key>
     <array>
         <string>US</string>
