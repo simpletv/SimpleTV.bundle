@@ -288,7 +288,7 @@ def GetGroupEpisodes(server_id, group_id, name="", page=1):
 
 
 ################################################################################
-def GetEpisode(instance_id, title, summary, show, season, episode, duration, url, thumb, container=False):
+def GetEpisode(instance_id, title, summary, show, season, episode, duration, url, thumb, container=False, *args, **kwargs):
 
     # the double-callback method so that we don't have to have a URL service
     try:
